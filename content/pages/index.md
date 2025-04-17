@@ -1,7 +1,7 @@
 ---
 type: PageLayout
 title: Home
-colors: colors-d
+colors: colors-e
 backgroundImage:
   type: BackgroundImage
   url: /images/jet-engine-371412_1280.jpg
