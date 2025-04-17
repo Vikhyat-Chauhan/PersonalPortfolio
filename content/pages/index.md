@@ -36,4 +36,7 @@ sections:
         textAlign: left
     type: HeroSection
     actions: []
+    text: >
+      Deep learning enthusiast with a strong foundation in full-stack software
+      development.
 ---
