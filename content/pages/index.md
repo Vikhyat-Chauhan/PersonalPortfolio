@@ -4,7 +4,7 @@ title: Home
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/circuit-7955446_1280.png
+  url: /images/jet-engine-371412_1280.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
