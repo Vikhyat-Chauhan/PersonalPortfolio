@@ -4,7 +4,7 @@ title: Home
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/jet-engine-371412_1280.jpg
+  url: /images/featured-Image4.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -33,11 +33,10 @@ sections:
         textAlign: left
     type: HeroSection
     actions: []
-    text: >+
+    text: >
       #### I’m a developer and researcher with a focus on building intelligent,
       data-driven applications using machine learning and AI. My work explores
       the intersection of human signals, embedded systems, and deep learning.
       Currently, I’m researching and developing advanced AI algorithms inspired
       by brain architecture for drones and robotics.
-
 ---
