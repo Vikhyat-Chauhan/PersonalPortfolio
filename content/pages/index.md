@@ -34,7 +34,7 @@ sections:
       by brain architecture for drones and robotics.
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg2.jpg
+  url: /images/background2.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
