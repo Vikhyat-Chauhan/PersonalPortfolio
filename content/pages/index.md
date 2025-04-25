@@ -37,8 +37,7 @@ sections:
       #### I’m a developer and researcher with a focus on building intelligent,
       data-driven applications using machine learning and AI. My work explores
       the intersection of human signals, embedded systems, and deep learning.
-      Currently, I’m researching wearable stress monitoring systems using
-      physiological signals and developing AI-powered control systems for drones
-      and robotics.
+      Currently, I’m researching and developing advanced AI algorithms inspired
+      by brain architecture for drones and robotics.
 
 ---
