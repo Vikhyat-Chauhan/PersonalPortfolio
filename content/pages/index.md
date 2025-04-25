@@ -5,7 +5,7 @@ colors: colors-a
 sections:
   - elementId: ''
     colors: colors-f
-    backgroundSize: full
+    backgroundSize: inset
     title: Vikhyat Chauhan
     subtitle: I build intelligent systems for the real world.
     styles:
