@@ -5,9 +5,15 @@ colors: colors-a
 date: '2021-10-15'
 client: Awesome client
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  ◦ Led the migration of a monolithic C++ application to a modern micro-services
+  architecture, optimizing systemreliability and agility.◦ Developed advanced
+  signal processing algorithms using AI for image reconstruction, enhancing MRI
+  and CT scanaccuracy.◦ Collaborated with cross-functional teams to integrate
+  control systems and AI technologies for real-time systemenhancements.◦
+  Implemented robust CI/CD pipelines to streamline development, reducing
+  deployment time by 50% throughautomated testing and integration.◦ Optimized
+  algorithms for medical imaging systems, ensuring high reliability and accuracy
+  in real-time applications.
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
