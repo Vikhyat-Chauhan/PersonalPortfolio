@@ -68,7 +68,7 @@ sections:
         borderWidth: 0
         margin:
           - ml-0
-    text: >
+    text: >+
       Hi, I’m **Vikhyat** — a computer engineer who’s passionate about bringing
       smart ideas to life through a mix of AI, embedded systems, and real-time
       control.
@@ -95,4 +95,5 @@ sections:
       When I'm not coding or running experiments, you’ll usually find me
       exploring new tech trends, optimizing control systems for fun, or
       sketching ideas for my next side project.
+
 ---
