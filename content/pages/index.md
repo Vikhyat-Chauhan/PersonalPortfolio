@@ -64,7 +64,7 @@ sections:
           - pl-4
           - pr-4
         flexDirection: row
-        textAlign: right
+        textAlign: center
         borderWidth: 0
         margin:
           - ml-0
