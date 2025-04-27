@@ -20,7 +20,7 @@ sections:
         padding:
           - pt-48
           - pb-48
-          - pl-10
+          - pl-4
           - pr-4
         flexDirection: row-reverse
         textAlign: left
