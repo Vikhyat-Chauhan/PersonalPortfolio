@@ -49,7 +49,7 @@
         "isSticky": true,
         "styles": {
             "self": {
-                "width": "narrow"
+                "width": "full"
             }
         },
         "logo": {
