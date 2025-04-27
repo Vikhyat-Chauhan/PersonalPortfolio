@@ -29,7 +29,7 @@ bottomSections:
       important as any kind of second language.”
     name: Johnna Doe
     title: Product Marketing Manager at Acme
-    colors: colors-d
+    colors: colors-b
     elementId: ''
     styles:
       self:
