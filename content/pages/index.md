@@ -62,7 +62,7 @@ sections:
           - pt-0
           - pb-0
           - pl-2
-          - pr-3
+          - pr-2
         flexDirection: row
         textAlign: left
         borderWidth: 0
