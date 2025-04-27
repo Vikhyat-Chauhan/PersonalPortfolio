@@ -10,16 +10,16 @@ sections:
     subtitle: I build intelligent systems for the real world.
     styles:
       self:
-        height: auto
-        width: narrow
+        height: screen
+        width: wide
         margin:
           - mt-0
           - mb-0
           - ml-0
           - mr-0
         padding:
-          - pt-48
-          - pb-48
+          - pt-0
+          - pb-0
           - pl-4
           - pr-4
         flexDirection: row-reverse
@@ -56,13 +56,13 @@ sections:
     elementId: ''
     styles:
       self:
-        height: auto
-        width: narrow
+        height: screen
+        width: wide
         padding:
-          - pt-36
-          - pb-48
+          - pt-0
+          - pb-0
           - pl-4
-          - pr-4
+          - pr-0
         flexDirection: row
         textAlign: left
         borderWidth: 0
