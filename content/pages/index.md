@@ -1,7 +1,7 @@
 ---
 type: PageLayout
 title: Home
-colors: colors-a
+colors: colors-b
 sections:
   - elementId: ''
     colors: colors-f
@@ -18,7 +18,7 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-36
+          - pt-48
           - pb-48
           - pl-4
           - pr-4
@@ -32,11 +32,4 @@ sections:
       the intersection of human signals, embedded systems, and deep learning.
       Currently, I’m researching and developing advanced AI algorithms inspired
       by brain architecture for drones and robotics.
-backgroundImage:
-  type: BackgroundImage
-  url: /images/background2.jpg
-  backgroundSize: cover
-  backgroundPosition: center
-  backgroundRepeat: no-repeat
-  opacity: 100
 ---
