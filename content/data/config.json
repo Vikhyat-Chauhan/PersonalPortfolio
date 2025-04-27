@@ -45,7 +45,7 @@
                 "elementId": ""
             }
         ],
-        "headerVariant": "variant-a",
+        "headerVariant": "variant-b",
         "isSticky": true,
         "styles": {
             "self": {
