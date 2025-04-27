@@ -113,7 +113,7 @@ sections:
     colors: colors-b
     variant: variant-d
     elementId: ''
-    showDate: false
+    showDate: true
     showDescription: true
     showFeaturedImage: true
     showReadMoreLink: true
