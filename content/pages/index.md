@@ -70,4 +70,5 @@ sections:
           - pr-4
         flexDirection: row
         textAlign: left
+        borderWidth: 1
 ---
