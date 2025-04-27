@@ -103,7 +103,7 @@ sections:
         altText: More
         url: /experiences
         showIcon: true
-        icon: apple
+        icon: arrowRight
         iconPosition: right
         elementId: ''
     projects:
