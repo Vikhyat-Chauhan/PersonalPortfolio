@@ -8,12 +8,7 @@ description: >-
   ◦ Led the migration of a monolithic C++ application to a modern micro-services
   architecture, optimizing systemreliability and agility.◦ Developed advanced
   signal processing algorithms using AI for image reconstruction, enhancing MRI
-  and CT scanaccuracy.◦ Collaborated with cross-functional teams to integrate
-  control systems and AI technologies for real-time systemenhancements.◦
-  Implemented robust CI/CD pipelines to streamline development, reducing
-  deployment time by 50% throughautomated testing and integration.◦ Optimized
-  algorithms for medical imaging systems, ensuring high reliability and accuracy
-  in real-time applications.
+  and CT scanaccuracy.
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
