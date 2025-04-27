@@ -46,7 +46,7 @@
             }
         ],
         "headerVariant": "variant-c",
-        "isSticky": false,
+        "isSticky": true,
         "styles": {
             "self": {
                 "width": "narrow"
