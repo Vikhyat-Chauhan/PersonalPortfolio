@@ -102,7 +102,7 @@ sections:
         label: More
         altText: More
         url: /experiences
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         elementId: ''
