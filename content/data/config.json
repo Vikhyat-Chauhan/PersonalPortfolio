@@ -38,6 +38,14 @@
             },
             {
                 "type": "Social",
+                "label": "Facebook",
+                "altText": "",
+                "url": "/",
+                "icon": "instagram",
+                "elementId": ""
+            },
+            {
+                "type": "Social",
                 "label": "",
                 "altText": "GitHub",
                 "url": "/",
