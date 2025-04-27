@@ -6,7 +6,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: vikhyat Chauhan
+    title: Vikhyat Chauhan
     subtitle: I build intelligent systems for the real world.
     styles:
       self:
