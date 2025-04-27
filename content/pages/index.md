@@ -71,4 +71,6 @@ sections:
         flexDirection: row
         textAlign: left
         borderWidth: 0
+        margin:
+          - ml-2
 ---
