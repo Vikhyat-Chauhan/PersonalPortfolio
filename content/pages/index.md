@@ -57,7 +57,7 @@ sections:
     styles:
       self:
         height: screen
-        width: wide
+        width: narrow
         padding:
           - pt-0
           - pb-0
