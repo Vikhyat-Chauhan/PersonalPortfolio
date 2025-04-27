@@ -111,7 +111,7 @@ sections:
       - content/pages/projects/project-two.md
       - content/pages/projects/project-three.md
     colors: colors-b
-    variant: variant-c
+    variant: variant-b
     elementId: ''
     showDate: true
     showDescription: true
