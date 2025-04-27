@@ -104,7 +104,7 @@ sections:
         url: /experiences
         showIcon: true
         icon: arrowRight
-        iconPosition: right
+        iconPosition: left
         elementId: ''
     projects:
       - content/pages/projects/project-one.md
