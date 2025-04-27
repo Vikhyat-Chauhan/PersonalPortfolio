@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Virginia Tech
+title: Virginia Polytechnic Institute and State University
 colors: colors-a
 date: '2021-10-15'
 client: Awesome client
