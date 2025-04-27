@@ -99,7 +99,7 @@ sections:
     subtitle: 'Projects:'
     actions:
       - type: Link
-        label: See all projects
+        label: More
         altText: See all projects
         url: /projects
         showIcon: false
