@@ -61,7 +61,7 @@ sections:
         padding:
           - pt-0
           - pb-0
-          - pl-3
+          - pl-2
           - pr-4
         flexDirection: row
         textAlign: left
