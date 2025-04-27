@@ -3,7 +3,7 @@
     "favicon": "/images/favicon.svg",
     "header": {
         "type": "Header",
-        "title": "Your Brand",
+        "title": "Vikhyat Chauhan",
         "isTitleVisible": true,
         "logo": {
             "type": "ImageBlock",
