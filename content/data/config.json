@@ -1,42 +1,4 @@
 {
     "type": "Config",
-    "favicon": "/images/favicon.svg",
-    "header": {
-        "type": "Header",
-        "headerVariant": "variant-c",
-        "isSticky": false,
-        "title": "VC",
-        "isTitleVisible": true,
-        "primaryLinks": [],
-        "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "icon": "github"
-            },
-            {
-                "type": "Social",
-                "label": "Facebook",
-                "altText": "",
-                "url": "/",
-                "icon": "linkedin",
-                "elementId": ""
-            },
-            {
-                "type": "Social",
-                "label": "Facebook",
-                "altText": "",
-                "url": "/",
-                "icon": "instagram",
-                "elementId": ""
-            }
-        ],
-        "styles": {
-            "self": {
-                "width": "full"
-            }
-        }
-    }
+    "favicon": "/images/favicon.svg"
 }
