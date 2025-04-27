@@ -100,7 +100,7 @@ sections:
     actions:
       - type: Link
         label: More
-        altText: See all projects
+        altText: More
         url: /projects
         showIcon: false
         icon: arrowRight
