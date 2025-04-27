@@ -95,4 +95,36 @@ sections:
       When I'm not coding or running experiments, you’ll usually find me
       exploring new tech trends, optimizing control systems for fun, or
       sketching ideas for my next side project.
+  - type: FeaturedProjectsSection
+    subtitle: 'Projects:'
+    actions:
+      - type: Link
+        label: More
+        altText: More
+        url: /experiences
+        showIcon: true
+        icon: arrowRight
+        iconPosition: left
+        elementId: ''
+    projects:
+      - content/pages/projects/project-one.md
+      - content/pages/projects/project-two.md
+      - content/pages/projects/project-three.md
+    colors: colors-b
+    variant: variant-d
+    elementId: ''
+    showDate: true
+    showDescription: true
+    showFeaturedImage: true
+    showReadMoreLink: false
+    styles:
+      self:
+        height: screen
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        textAlign: left
 ---
