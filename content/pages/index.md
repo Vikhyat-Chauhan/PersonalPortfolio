@@ -32,11 +32,4 @@ sections:
       the intersection of human signals, embedded systems, and deep learning.
       Currently, I’m researching and developing advanced AI algorithms inspired
       by brain architecture for drones and robotics.
-backgroundImage:
-  type: BackgroundImage
-  url: /images/background2.jpg
-  backgroundSize: cover
-  backgroundPosition: center
-  backgroundRepeat: no-repeat
-  opacity: 100
 ---
