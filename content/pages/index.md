@@ -101,7 +101,7 @@ sections:
       - type: Link
         label: More
         altText: More
-        url: /projects
+        url: /experiences
         showIcon: false
         icon: arrowRight
         iconPosition: right
