@@ -10,7 +10,7 @@ sections:
     subtitle: I build intelligent systems for the real world.
     styles:
       self:
-        height: auto
+        height: screen
         width: wide
         margin:
           - mt-0
