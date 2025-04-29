@@ -15,7 +15,7 @@ export default function Header(props) {
         <header className={classNames(isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b border-current')}>
             <div
                 className={classNames({
-                    'max-w-7xl mx-auto xl:border-x xl:border-current': headerWidth === 'narrow',
+                    'max-w-7xl mx-auto': headerWidth === 'narrow',
                     'max-w-8xl mx-auto 2xl:border-x 2xl:border-current': headerWidth === 'wide',
                     'w-full': headerWidth === 'full'
                 })}
