@@ -6,9 +6,9 @@ date: '2021-10-15'
 client: Awesome client
 description: >-
   ◦ Led the migration of a monolithic C++ application to a modern micro-services
-  architecture, optimizing systemreliability and agility.◦ Developed advanced
-  signal processing algorithms using AI for image reconstruction, enhancing MRI
-  and CT scanaccuracy.
+  architecture, optimizing systemreliability and agility.          ◦ Developed
+  advanced signal processing algorithms using AI for image reconstruction,
+  enhancing MRI and CT scanaccuracy.                   
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
