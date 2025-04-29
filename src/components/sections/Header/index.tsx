@@ -12,11 +12,11 @@ export default function Header(props) {
     const { isSticky, styles = {}, ...rest } = props;
     const headerWidth = styles.self?.width ?? 'narrow';
     return (
-        <header className={classNames(isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b border-current')}>
+        <header className={classNames(isSticky ? 'sticky top-0 z-10' : 'relative')}>
             <div
                 className={classNames({
-                    'max-w-7xl mx-auto': headerWidth === 'narrow',
-                    'max-w-8xl mx-auto 2xl:border-x 2xl:border-current': headerWidth === 'wide',
+                    'max-w-7xl mx-auto xl: xl:': headerWidth === 'narrow',
+                    'max-w-8xl mx-auto 2xl: 2xl:': headerWidth === 'wide',
                     'w-full': headerWidth === 'full'
                 })}
             >
@@ -47,12 +47,12 @@ function HeaderVariantA(props) {
         <div className="relative flex items-stretch">
             <SiteLogoLink {...logoProps} />
             {primaryLinks.length > 0 && (
-                <ul className="hidden border-r border-current divide-x divide-current lg:flex">
+                <ul className="hidden     lg:flex">
                     <ListOfLinks links={primaryLinks} inMobileMenu={false} />
                 </ul>
             )}
             {socialLinks.length > 0 && (
-                <ul className="hidden ml-auto border-l border-current lg:flex">
+                <ul className="hidden ml-auto   lg:flex">
                     <ListOfSocialLinks links={socialLinks} inMobileMenu={false} />
                 </ul>
             )}
@@ -67,13 +67,13 @@ function HeaderVariantB(props) {
         <div className="relative flex items-stretch">
             <SiteLogoLink {...logoProps} />
             {primaryLinks.length > 0 && (
-                <ul className="hidden ml-auto border-l border-current divide-x divide-current lg:flex">
+                <ul className="hidden ml-auto     lg:flex">
                     <ListOfLinks links={primaryLinks} inMobileMenu={false} />
                 </ul>
             )}
             {socialLinks.length > 0 && (
                 <ul
-                    className={classNames('hidden border-l border-current lg:flex', {
+                    className={classNames('hidden   lg:flex', {
                         'ml-auto': primaryLinks.length === 0
                     })}
                 >
@@ -91,13 +91,13 @@ function HeaderVariantC(props) {
         <div className="relative flex items-stretch">
             <SiteLogoLink {...logoProps} />
             {socialLinks.length > 0 && (
-                <ul className="hidden ml-auto border-l border-current lg:flex">
+                <ul className="hidden ml-auto   lg:flex">
                     <ListOfSocialLinks links={socialLinks} inMobileMenu={false} />
                 </ul>
             )}
             {primaryLinks.length > 0 && (
                 <ul
-                    className={classNames('hidden border-l border-current divide-x divide-current lg:flex', {
+                    className={classNames('hidden     lg:flex', {
                         'ml-auto': primaryLinks.length === 0
                     })}
                 >
@@ -129,16 +129,16 @@ function MobileMenu(props) {
         <div className="ml-auto lg:hidden">
             <button
                 aria-label="Open Menu"
-                className="h-10 min-h-full p-4 text-lg border-l border-current focus:outline-hidden"
+                className="h-10 min-h-full p-4 text-lg   focus:outline-hidden"
                 onClick={() => setIsMenuOpen(true)}
             >
                 <MenuIcon className="fill-current w-icon h-icon" />
             </button>
             <div className={classNames('fixed inset-0 z-20 overflow-y-auto bg-main', isMenuOpen ? 'block' : 'hidden')}>
                 <div className="flex flex-col min-h-full">
-                    <div className="flex items-stretch justify-between border-b border-current">
+                    <div className="flex items-stretch justify-between  ">
                         <SiteLogoLink {...logoProps} />
-                        <div className="border-l border-current">
+                        <div className=" ">
                             <button
                                 aria-label="Close Menu"
                                 className="h-10 min-h-full p-4 text-lg focus:outline-hidden"
@@ -156,7 +156,7 @@ function MobileMenu(props) {
                                 </ul>
                             )}
                             {socialLinks.length > 0 && (
-                                <ul className="flex flex-wrap justify-center border border-current divide-x divide-current">
+                                <ul className="flex flex-wrap justify-center border   ">
                                     <ListOfSocialLinks links={socialLinks} inMobileMenu={true} />
                                 </ul>
                             )}
@@ -173,7 +173,7 @@ function SiteLogoLink({ title, isTitleVisible, logo }) {
         return null;
     }
     return (
-        <div className="flex items-center border-r border-current">
+        <div className="flex items-center  ">
             <Link href="/" className="flex items-center h-full gap-2 p-4 link-fill">
                 {logo && <ImageBlock {...logo} className="max-h-12" />}
                 {title && isTitleVisible && <span className="text-base tracking-widest uppercase">{title}</span>}
