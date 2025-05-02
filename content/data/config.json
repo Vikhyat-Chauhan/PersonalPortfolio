@@ -3,8 +3,8 @@
     "favicon": "/images/favicon.svg",
     "header": {
         "type": "Header",
-        "title": "Vikhyat Chauhan",
-        "isTitleVisible": false,
+        "title": "VC",
+        "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
@@ -59,12 +59,6 @@
             "self": {
                 "width": "full"
             }
-        },
-        "logo": {
-            "type": "ImageBlock",
-            "altText": "altText of the image",
-            "caption": "Caption of the image",
-            "elementId": ""
         }
     }
 }

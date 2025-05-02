@@ -1,10 +1,10 @@
 ---
 type: PageLayout
 title: Home
-colors: colors-b
+colors: colors-d
 sections:
   - elementId: ''
-    colors: colors-f
+    colors: colors-b
     backgroundSize: full
     title: Vikhyat Chauhan
     subtitle: I build intelligent systems for the real world.
@@ -47,7 +47,7 @@ sections:
         elementId: ''
     media:
       type: ImageBlock
-      url: /images/WhatsApp Image 2025-04-24 at 22.29.59.jpeg
+      url: /images/about.jpg
       altText: Hero image
       caption: Caption of the image
       elementId: ''
@@ -62,7 +62,7 @@ sections:
           - pt-0
           - pb-0
           - pl-4
-          - pr-0
+          - pr-4
         flexDirection: row
         textAlign: left
         borderWidth: 0
