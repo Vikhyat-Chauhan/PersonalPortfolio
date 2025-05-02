@@ -69,7 +69,7 @@ sections:
         margin:
           - ml-0
     text: >
-      # Hi, I’m **Vikhyat** — a computer engineer who’s passionate about
+      ###### Hi, I’m **Vikhyat** — a computer engineer who’s passionate about
       bringing smart ideas to life through a mix of AI, embedded systems, and
       real-time control.
 
