@@ -66,7 +66,7 @@ sections:
           - pr-4
         flexDirection: row
         textAlign: left
-        borderWidth: 0
+        borderWidth: 2
         margin:
           - ml-0
         borderStyle: none
