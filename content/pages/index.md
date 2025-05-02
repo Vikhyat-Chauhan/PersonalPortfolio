@@ -69,7 +69,7 @@ sections:
         borderWidth: 2
         margin:
           - ml-0
-        borderStyle: none
+        borderStyle: solid
     text: >+
       ### Hi, I’m **Vikhyat** — a computer engineer who’s passionate about
       bringing smart ideas to life through a mix of AI, embedded systems, and
