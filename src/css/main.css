@@ -28,11 +28,13 @@ layer(base);
     h1,
     h2,
     h3,
-    h4,
+    h4{
+        font-size: 0.875rem; /* Change this to your desired size */
+      }
     h5,
     h6 {
         @apply break-words;
-        line-height: 1.15;
+        line-height: 0.9;
         font-weight: var(--theme-heading-weight);
         text-transform: var(--theme-heading-case);
     }
