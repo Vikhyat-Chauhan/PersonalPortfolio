@@ -60,7 +60,7 @@ sections:
         height: screen
         width: wide
         padding:
-          - pt-1
+          - pt-0
           - pb-0
           - pl-4
           - pr-4
