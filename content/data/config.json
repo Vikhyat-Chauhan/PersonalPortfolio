@@ -54,7 +54,7 @@
             }
         ],
         "headerVariant": "variant-b",
-        "isSticky": false,
+        "isSticky": true,
         "styles": {
             "self": {
                 "width": "full"
