@@ -53,7 +53,7 @@ sections:
       caption: Caption of the image
       elementId: ''
     colors: colors-b
-    backgroundSize: full
+    backgroundSize: inset
     elementId: ''
     styles:
       self:
