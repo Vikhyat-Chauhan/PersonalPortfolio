@@ -71,10 +71,14 @@ sections:
           - ml-0
         borderStyle: none
     text: >+
-      ### I first got curious about tech during my undergrad days, when I built
-      a quadcopter for solar plant inspections. Tinkering with sensors, control
-      algorithms, and deep learning models made me realize how much I enjoy
-      working at the intersection of hardware and intelligence.
+
+
+      ### Hi, I’m Vikhyat — a computer engineer who’s passionate about bringing
+      smart ideas to life through a mix of AI, embedded systems, and real-time
+      control.I first got curious about tech during my undergrad days, when I
+      built a quadcopter for solar plant inspections. Tinkering with sensors,
+      control algorithms, and deep learning models made me realize how much I
+      enjoy working at the intersection of hardware and intelligence.
 
 
       ### Since then, I’ve worn a few different hats — co-founding a tech
