@@ -73,7 +73,7 @@ export default function Component(props: HeroSection) {
 
 function HeroMedia({ media }) {
     return (
-        <div className="w-full max-w-md h-auto">
+        <div className="w-full max-w-[200px] h-auto">
             <DynamicComponent {...media} />
         </div>
     );
