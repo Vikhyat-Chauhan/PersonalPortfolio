@@ -8,15 +8,11 @@ import { HeroSection } from '@/types';
 import { mapStylesToClassNames as mapStyles } from '@/utils/map-styles-to-class-names';
 import Section from '../Section';
 
-/*
- This is the only component in this codebase which has a few Stackbit annotations for specific primitive
- field. These are added by the <AnnotatedField> helper.
- The motivation for these annotations: allowing the content editor to edit styles at the field level.
- */
 export default function Component(props: HeroSection) {
     const { elementId, colors, backgroundSize, title, subtitle, text, media, actions = [], styles = {} } = props;
     const sectionFlexDirection = styles.self?.flexDirection ?? 'row';
     const sectionAlign = styles.self?.textAlign ?? 'left';
+
     return (
         <Section elementId={elementId} colors={colors} backgroundSize={backgroundSize} styles={styles.self}>
             <div className={classNames('flex gap-8', mapFlexDirectionStyles(sectionFlexDirection))}>
@@ -59,10 +55,13 @@ export default function Component(props: HeroSection) {
                 </div>
                 {media && (
                     <div
-                        className={classNames('flex flex-1 w-full', {
-                            'justify-center': sectionAlign === 'center',
-                            'justify-end': sectionAlign === 'right'
-                        })}
+                        className={classNames(
+                            'flex flex-1 w-full justify-start',
+                            {
+                                'justify-center': sectionAlign === 'center',
+                                'justify-end': sectionAlign === 'right'
+                            }
+                        )}
                     >
                         <HeroMedia media={media} />
                     </div>
@@ -73,7 +72,11 @@ export default function Component(props: HeroSection) {
 }
 
 function HeroMedia({ media }) {
-    return <DynamicComponent {...media} />;
+    return (
+        <div className="w-full max-w-md h-auto">
+            <DynamicComponent {...media} />
+        </div>
+    );
 }
 
 function mapFlexDirectionStyles(flexDirection?: 'row' | 'row-reverse' | 'col' | 'col-reverse') {
