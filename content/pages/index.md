@@ -26,12 +26,13 @@ sections:
         textAlign: left
     type: HeroSection
     actions: []
-    text: >
-      #### I’m a developer and researcher with a focus on building intelligent,
+    text: >+
+      ##### I’m a developer and researcher with a focus on building intelligent,
       data-driven applications using machine learning and AI. My work explores
       the intersection of human signals, embedded systems, and deep learning.
       Currently, I’m researching and developing advanced AI algorithms inspired
       by brain architecture for drones and robotics.
+
   - type: HeroSection
     title: About Me
     subtitle: ''
