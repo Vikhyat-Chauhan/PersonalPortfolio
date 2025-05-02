@@ -47,7 +47,7 @@ sections:
         elementId: ''
     media:
       type: ImageBlock
-      url: /images/WhatsApp Image 2025-04-24 at 22.29.59.jpeg
+      url: /images/about.jpg
       altText: Hero image
       caption: Caption of the image
       elementId: ''
