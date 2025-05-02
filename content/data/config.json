@@ -3,7 +3,7 @@
     "favicon": "/images/favicon.svg",
     "header": {
         "type": "Header",
-        "title": "Vikhyat Chauhan",
+        "title": "VC",
         "isTitleVisible": true,
         "primaryLinks": [
             {
