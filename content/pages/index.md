@@ -35,10 +35,7 @@ sections:
 
   - type: HeroSection
     title: About Me
-    subtitle: >-
-      Hi, I’m Vikhyat — a computer engineer who’s passionate about bringing
-      smart ideas to life through a mix of AI, embedded systems, and real-time
-      control.
+    subtitle: ''
     actions:
       - type: Button
         label: Hire me
